@@ -35,8 +35,8 @@ def check_win(moves):
     if condition in win_condition:
       win = True
       break
-
   return win
+  
 def tic_tac_toe(p1, p2):
   board = [[" "," "," "],[" "," "," "],[" "," "," "]]
   p1_choices = []
